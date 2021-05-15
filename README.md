@@ -12,4 +12,5 @@ This is because currently the BOT is not deployed on any platform, so it will no
 1. Eitherd download my code or firstly Fork my Repo and open up a terminal and type the following command
   ```bash
     git clone https://github.com/dakshsethi/MARK-BOT.git
+    npm install
   ```
