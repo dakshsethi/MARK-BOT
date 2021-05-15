@@ -47,7 +47,7 @@ Currently the Bot supports only one command i.e., `-todo` but it has 3 additiona
   <tr>
     <td><code>-todo show DD-MM-YYYY</code></td>
     <td>
-      This displays the ToDo list for any specified date. <b>NOTE: The format of the date here is very important.</b> 
+      This displays the ToDo list for any specified date. <b>The format of the date here is very important.</b> 
     </td>
   </tr>
   <tr>
