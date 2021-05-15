@@ -28,7 +28,7 @@ function ToDoMsgContent(msgIndex, msg) {
             }
 
             else if(addReg.test(msg.content)) {
-                console.log("Correct"); //+ //msg.channel);
+                // console.log("Correct"); //+ //msg.channel);
                 addToDo(msg.content).then(res => msg.channel.send(["```", res, "```"])).catch(err => console.log(err));
             }
             else {

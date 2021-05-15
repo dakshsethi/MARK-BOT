@@ -2,9 +2,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
-// Discord.Channel()
-
 const todo = require('./functions/todo');
 
 client.on('ready', () => {
@@ -24,7 +21,7 @@ client.on('guildMemberAdd', member => {
 client.on('message', msg => {
     if(msg.content === 'ping')
         msg.channel.send('pong!!');
-    console.log(msg.author.username);
+    // console.log(msg.author.username);
 
 
     let msgIndex = msg.content.split(' ');
@@ -34,12 +31,6 @@ client.on('message', msg => {
     // console.log(typeof msg.guild.members.cache);
     // console.log(typeof msg.channel.member)
 
-    // coltsteel
-    // Akshay Saini - Namesty Javascript
-
-    // console.log(msg.channel.name);
-    // if(msg.content === 'ping')
-    //     msg.reply('pong!!');
     if(msg.content.includes("documentation")) {
         msg.reply(["```",
             "It sounds like you might be looking for DOCUMENTATION",
