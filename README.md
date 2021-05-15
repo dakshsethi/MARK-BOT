@@ -25,12 +25,38 @@ This is because currently the BOT is not deployed on any platform, so it will no
 ![Build-A-Bot](https://firebasestorage.googleapis.com/v0/b/discord-bot-27096.appspot.com/o/Build-A-Bot.JPG?alt=media&token=4af3e643-8c24-4e00-aed0-9a7676e49417)
 Click on Copy to copy your **DISCORD TOKEN**.
 6. Replace `process.env.DISCORD_TOKEN` in your *index.js* file with this copied token.
-7. Now again open up your terminal and simply run `npm start`, and now your BOT is finally online and ready to reply to your commands. **NOTE:** Everytime you terminate from the node command, the BOT will go offline so need you need to keep the file running in the background.
+7. Now again open up your terminal and simply run `npm start`, and now your BOT is finally online in your discord server and is ready to reply to your commands. **NOTE:** Everytime you terminate from the node command, the BOT will go offline so need you need to keep the file running in the background.
 
 
 ## [Bot Commands](#commands)
 Currently the Bot supports only one command i.e., `-todo` but it has 3 additional features in this.
-
+<table>
+<thead>
+  <tr>
+    <th><code>-todo</code></th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><code>-todo show</code></td>
+    <td>
+      This displays the ToDo list for the current date.
+    </td>
+  </tr>
+  <tr>
+    <td><code>-todo show DD-MM-YYYY</code></td>
+    <td>
+      This displays the ToDo list for any specified date. <b>NOTE: The format of the date here is very important.</b> 
+    </td>
+  </tr>
+  <tr>
+    <td><code>-todo add "Message"</code></td>
+    <td>Use this command to add any item to the current ToDo list.</td>
+  </tr>
+</tbody>
+</table>
+              
 
 
 
